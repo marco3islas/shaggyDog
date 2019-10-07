@@ -1,0 +1,171 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+#title{
+  text-align: left;
+}
+.container-fluid{
+  padding: 3% 15% 15%;
+}
+
+/* Utilerias */
+.montserratH1, .montserratH2, .montserratH3,.montserratBold{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+.montserratH2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.montserratH3{
+  font-size: 2.8rem;
+  color: white;
+}
+.montserratBold{
+  font-weight: bold;
+}
+/* Colored and White*/
+
+.colored{
+  background-color: #0169CE;
+  color: white;
+}
+
+.white{
+  padding: 7% 15% 2%;
+  background-color: white;
+}
+
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+/* Title Image */
+
+.iphone{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+/* DownloadButtons */
+
+.customButton{
+  margin: 5% 3% 5% 0;
+}
+/* Features */
+
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+.featuresDiv{
+  padding: 5%;
+}
+.featuresIcons{
+  font-size: 3.5rem;
+  color: #00D187;
+  margin-bottom: 3%;
+  transition: 300ms;
+}
+.featuresIcons:hover{
+  color:#18F2A5;
+}
+
+/* Seccion de testimonios */
+
+#testimonials, #press{
+  background-color: #00D187;
+}
+.pebblesImg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Seccion */
+
+#pricing{
+  padding: 10rem;
+}
+
+.pricing-column{
+  padding: 3%  2%;
+}
+
+/*  CTA Seccion  */
+#cta{  
+  padding: 7% 15%;
+}
+@media (max-width: 375px){
+  #pricing{
+    padding: 3px 5px;
+  } 
+}
+
+/* FOOTER */
+footer{
+
+}
+.social{
+  display: flex;
+  width: 20%;
+  margin: 3% 40%;
+  justify-content: space-between;
+}
+.social a{
+  text-decoration: none;
+  color: #343a40;
+  font-size: 2rem;
+}
+
+
+
+/* Media querys */
+@media (max-width: 995px)  {
+  .iphone{
+    position: static;
+    z-index: 2;
+    transform: rotate(0deg);
+    padding: 2% 0 2%;
+  }
+  #features{
+    z-index: 0;
+    position: static;
+  }
+  #title{
+    text-align: center;
+  }
+}
