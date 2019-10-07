@@ -99,7 +99,7 @@ body{
   background-color: #00D187;
 }
 .pebblesImg{
-  width: 10%;
+  width: 27%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -136,13 +136,11 @@ body{
 }
 
 /* FOOTER */
-footer{
 
-}
 .social{
   display: flex;
-  width: 20%;
-  margin: 3% 40%;
+  width: 80%;
+  margin: 0 auto;
   justify-content: space-between;
 }
 .social a{
